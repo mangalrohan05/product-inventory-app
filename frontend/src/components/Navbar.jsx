@@ -48,11 +48,6 @@ const Navbar = () => {
 
             </div>
 
-
-            <div className="userOptions flex gap-5 px-4">
-                <NavLink to={'/login'}>Login</NavLink>
-                <NavLink to={'/register'}>Register</NavLink>
-            </div>
         </nav>
     )
 }
