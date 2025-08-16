@@ -1,0 +1,12 @@
+# Node modules (big dependency folder)
+node_modules
+
+# Logs
+npm-debug.log
+
+# Env files (keep secrets private)
+.env
+
+# Build outputs
+frontend/dist
+backend/dist
