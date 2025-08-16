@@ -4,7 +4,7 @@ import { toast } from 'react-hot-toast';
 import api from '../services/api';
 
 const AdminProductList = () => {
-  const [products, setProducts] = useSt`ate([]);
+  const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
